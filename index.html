@@ -23,8 +23,6 @@
 		a[href^="tel"], a[href^="sms"] {text-decoration:none; color:#000; pointer-events:none; cursor:default;}
 		.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {text-decoration:default; color:#000 !important; pointer-events:auto; cursor:default;}
 
-		@media only screen and (max-width: 639px) { }
-		@media only screen and (min-width: 640px) and (max-width: 1024px) { }
 
 
 		body, #main {
@@ -93,12 +91,26 @@
 
 		#footer p {font-size: 12px}
 
+
+		@media only screen and (max-width: 460px) {
+			body {
+				font-size: 15px;
+				padding: 10px;
+			}
+			h1 {
+				margin-top: 2em;
+				font-size: 1.2em;
+			}
+			h2 {
+				font-size: 1em;
+			}
+		}
+
 	</style>
 </head>
 
 
-<body style="color:#444; background:#eee; font-family:Raleway,Helvetica,Arial,sans-serif; font-size:13px; line-height:1.4;"
-alink="#9d470a" link="#9d470a" bgcolor="#e0dbcf" text="#333333" yahoo="fix">
+<body alink="#9d470a" link="#9d470a" bgcolor="#e0dbcf" text="#333333" yahoo="fix">
 
 	<div id="main" role="main">
 		<header id="header">
