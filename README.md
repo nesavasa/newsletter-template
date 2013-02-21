@@ -1,0 +1,1 @@
+Just a simple HTML5 html newsletter template for mailchimp. Will most likely break in most devices. But hey, we don't care at all. License: Feel free to rip mix and burn.
